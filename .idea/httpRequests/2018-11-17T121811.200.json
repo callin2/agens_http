@@ -1,0 +1,9 @@
+[
+  {
+    "error": {
+      "code": "42601",
+      "message": "syntax error at or near \"$1\"",
+      "position": "15"
+    }
+  }
+]

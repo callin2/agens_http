@@ -1,0 +1,15 @@
+[
+  {
+    "error": {
+      "code": "22P02",
+      "message": "invalid input syntax for type json"
+    }
+  },
+  {
+    "error": {
+      "code": "42601",
+      "message": "syntax error at or near \"}\"",
+      "position": "17"
+    }
+  }
+]

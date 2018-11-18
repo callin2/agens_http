@@ -1,0 +1,46 @@
+[
+  {
+    "result": {
+      "command": "SELECT",
+      "rowCount": 1,
+      "oid": null,
+      "rows": [
+        {
+          "n": {
+            "label": "person",
+            "id": {
+              "oid": "3",
+              "id": "15"
+            },
+            "props": {
+              "name": "jack"
+            }
+          }
+        }
+      ],
+      "fields": [
+        {
+          "name": "n",
+          "tableID": 0,
+          "columnID": 0,
+          "dataTypeID": 7012,
+          "dataTypeSize": -1,
+          "dataTypeModifier": -1,
+          "format": "text"
+        }
+      ],
+      "_parsers": [
+        null
+      ],
+      "RowCtor": null,
+      "rowAsArray": false
+    }
+  },
+  {
+    "error": {
+      "code": "42601",
+      "message": "syntax error at or near \"}\"",
+      "position": "17"
+    }
+  }
+]

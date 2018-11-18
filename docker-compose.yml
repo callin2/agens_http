@@ -1,0 +1,28 @@
+version: '2'
+services:
+  web:
+    image: node:latest
+    command: /code/start.sh
+    container_name: agens_http_api
+    volumes:
+      - './api_server:/code'
+    ports:
+      - '3000:3000'
+    environment:
+        NODE_ENV: 'DEVELOPMENT'
+        DEBUG: agens-http
+    depends_on:
+      - db
+    restart: always
+
+  db:
+    image: callin/agensgraph
+    container_name: agens_db
+    ports:
+      - '5432:5432'
+    restart: always
+    stdin_open: true
+    tty: true
+
+
+

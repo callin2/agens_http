@@ -1,0 +1,35 @@
+[
+  {
+    "command": "SELECT",
+    "rowCount": 1,
+    "oid": null,
+    "rows": [
+      {
+        "id": "3.13"
+      }
+    ],
+    "fields": [
+      {
+        "name": "id",
+        "tableID": 0,
+        "columnID": 0,
+        "dataTypeID": 7002,
+        "dataTypeSize": 8,
+        "dataTypeModifier": -1,
+        "format": "text"
+      }
+    ],
+    "_parsers": [
+      null
+    ],
+    "RowCtor": null,
+    "rowAsArray": false
+  },
+  {
+    "error": {
+      "code": "42601",
+      "message": "syntax error at or near \"}\"",
+      "position": "17"
+    }
+  }
+]

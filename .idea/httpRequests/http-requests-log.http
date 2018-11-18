@@ -1,0 +1,698 @@
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person  {name: $1 }) RETURN n ",
+    "params" : ["jack"]
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-17T124136.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person  {name: $1 }) RETURN n ",
+    "params" : ["jack"]
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-17T124044.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person  {name: $1 }) RETURN n ",
+    "params" : ["jack"]
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person  {name: $1 }) RETURN n ",
+    "params" : ["jack"]
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-17T123308.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person  {name: $1 }) RETURN id(n)",
+    "params" : ["jack"]
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-17T122408.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person  {name: $1 }) RETURN id(n)",
+    "params" : ["jack"]
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-17T121940.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE elabel $1 ",
+    "params": [ "parent" ]
+  } ]
+}
+
+<> 2018-11-17T121811.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE elabel $1 ",
+    params: [ 'parent' ]
+  } ]
+}
+
+<> 2018-11-17T121730.400.html
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-17T120518.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-17T120408.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-17T120241.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-17T120157.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-17T120059.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-17T120036.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T114927.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T114827.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T114254.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T114228.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T114102.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE elabel friends "
+  } ]
+}
+
+<> 2018-11-16T114047.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE elabel friends "
+  } ]
+}
+
+<> 2018-11-16T111725.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE elabel friends "
+  } ]
+}
+
+<> 2018-11-16T111631.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE vlabel person "
+  } ]
+}
+
+<> 2018-11-16T111605.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T111549.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T111545.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person ) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T111539.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T111510.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n) RETURN id(n)"
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T110112.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE vlabel person "
+  } ]
+}
+
+<> 2018-11-16T095550.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE vlabel person "
+  } ]
+}
+
+<> 2018-11-16T095359.500.html
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE vlabel person "
+  } ]
+}
+
+<> 2018-11-16T093651.500.html
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE vlabel person "
+  } ]
+}
+
+<> 2018-11-16T091919.500.html
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE vlabel person "
+  } ]
+}
+
+<> 2018-11-16T091803.500.html
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE vlabel person "
+  } ]
+}
+
+<> 2018-11-16T091654.500.html
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "statement" : "CREATE (n) RETURN id(n)"
+  }, {
+    "statement" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T074454.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "statement" : "CREATE (n) RETURN id(n)"
+  }, {
+    "statement" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T074448.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "statement" : "CREATE (n) RETURN id(n)"
+  }, {
+    "statement" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
+<> 2018-11-16T074008.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2018-11-16T070953.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2018-11-16T052152.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2018-11-16T051232.200.json
+
+###
+

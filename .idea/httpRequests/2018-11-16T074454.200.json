@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "columns": [
+        "id(n)"
+      ],
+      "data": [
+        {
+          "row": [
+            3
+          ],
+          "meta": [
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "columns": [
+        "n"
+      ],
+      "data": [
+        {
+          "row": [
+            {
+              "name": "My Node"
+            }
+          ],
+          "meta": [
+            {
+              "id": 4,
+              "type": "node",
+              "deleted": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
