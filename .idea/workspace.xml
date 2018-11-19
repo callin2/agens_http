@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="591799cf-4966-4dcf-b231-0a037f8bde09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api_server/dbinfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_server/dbinfo.js.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.coffee.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/api_server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_server/dbinfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_server/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/api_server/routes/api.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +27,10 @@
     <session id="-1940131153">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,6 +39,7 @@
           <entry key="http" value="3" />
           <entry key="js" value="14" />
           <entry key="json" value="3" />
+          <entry key="log" value="2" />
           <entry key="md" value="1" />
           <entry key="pm2-docker" value="1" />
           <entry key="pm2-runtime" value="1" />
@@ -57,18 +56,20 @@
           <entry key="HTTP Request" value="3" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="17" />
+          <entry key="Log" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="http" value="151" />
-          <entry key="js" value="1102" />
-          <entry key="json" value="76" />
+          <entry key="js" value="1107" />
+          <entry key="json" value="136" />
           <entry key="md" value="268" />
           <entry key="sh" value="36" />
+          <entry key="txt" value="42" />
           <entry key="yml" value="8" />
         </counts>
       </usages-collector>
@@ -76,9 +77,10 @@
         <counts>
           <entry key="Bash" value="36" />
           <entry key="HTTP Request" value="149" />
-          <entry key="JSON" value="78" />
-          <entry key="JavaScript" value="1102" />
+          <entry key="JSON" value="138" />
+          <entry key="JavaScript" value="1107" />
           <entry key="Literate CoffeeScript" value="268" />
+          <entry key="PLAIN_TEXT" value="42" />
           <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
@@ -90,25 +92,18 @@
     <favorites_list name="agens_http" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6336547">
+    <splitter split-orientation="horizontal" split-proportion="0.4888889">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README.coffee.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="300">
-                    <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/api_server/stream/Chunk.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
+                <state relative-caret-position="285">
                   <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="14" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
@@ -121,7 +116,7 @@
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
-                  <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+                  <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -129,26 +124,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/api_server/dbinfo.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/api_server/dbinfo.js.sample">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
+            <entry file="file://$PROJECT_DIR$/api_server/dbinfo.js.sample">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1310">
-                  <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -165,8 +151,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/api_server/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" selection-start-line="13" selection-end-line="13" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -174,7 +160,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/api_server/stream/EtlApiServer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3425">
+                <state relative-caret-position="345">
                   <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
                 </state>
               </provider>
@@ -183,8 +169,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/api_server/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                <state relative-caret-position="600">
+                  <caret line="40" selection-start-line="40" selection-end-line="40" />
                 </state>
               </provider>
             </entry>
@@ -192,12 +178,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/api_call_test.http">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -218,6 +204,7 @@
       <find>p</find>
       <find>Docker</find>
       <find>jade</find>
+      <find>createError</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -232,13 +219,13 @@
         <option value="$PROJECT_DIR$/api_server/routes/util.js" />
         <option value="$PROJECT_DIR$/api_server/stream/EtlApiServer.js" />
         <option value="$PROJECT_DIR$/api_server/routes/api.js" />
-        <option value="$PROJECT_DIR$/api_server/package.json" />
-        <option value="$PROJECT_DIR$/api_server/app.js" />
         <option value="$PROJECT_DIR$/api_server/dbinfo.js.sample" />
         <option value="$PROJECT_DIR$/README.coffee.md" />
-        <option value="$PROJECT_DIR$/api_server/dbinfo.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/api_server/app.js" />
+        <option value="$PROJECT_DIR$/api_server/package.json" />
+        <option value="$PROJECT_DIR$/api_server/dbinfo.js" />
       </list>
     </option>
   </component>
@@ -260,113 +247,15 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/api_server/node_modules/accepts/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/acorn-globals/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/align-text/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/amdefine/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/array-flatten/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/asap/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/basic-auth/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/body-parser/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/center-align/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/character-parser/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/clean-css/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/clean-css/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/cliui/node_modules/wordwrap/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/cliui/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/constantinople/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/content-disposition/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/content-type/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/cookie-parser/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/cookie-signature/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/cookie/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/css-parse/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/css-stringify/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/css/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/decamelize/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/destroy/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/ee-first/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/encodeurl/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/escape-html/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/etag/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/express/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/finalhandler/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/forwarded/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/graceful-readlink/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/ipaddr.js/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/is-promise/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/jade/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/jstransformer/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/lazy-cache/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/longest/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/merge-descriptors/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/morgan/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/on-finished/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/on-headers/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/optimist/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/parseurl/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/path-to-regexp/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/promise/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/proxy-addr/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/raw-body/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/right-align/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/send/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/serve-static/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/transformers/node_modules/is-promise/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/transformers/node_modules/promise/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/transformers/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/transformers/node_modules/uglify-js/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/transformers/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/type-is/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/uglify-js/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/uglify-js/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/uglify-to-browserify/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/unpipe/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/utils-merge/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/vary/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/void-elements/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/window-size/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/with/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/with/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/wordwrap/package.json" />
-      <path value="$PROJECT_DIR$/api_server/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/api_server/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="16" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -386,6 +275,12 @@
               <item name="agens_http" type="462c0819:PsiDirectoryNode" />
               <item name="api_server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="agens_http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agens_http" type="462c0819:PsiDirectoryNode" />
+              <item name="api_server" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -396,6 +291,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/api_server/log/agens_http.error.log&#10;/Users/changjinrim/WebstormProjects/agens_http/api_server/log/agens_http.log" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -442,7 +338,7 @@
             </list>
           </option>
           <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&#10;  &quot;statements&quot; : [ {&#10;    &quot;query&quot; : &quot;CREATE (n:person  {name: $1 }) RETURN id(n)&quot;,&#10;    &quot;params&quot; : [&quot;jack&quot;]&#10;  }, {&#10;    &quot;query&quot; : &quot;CREATE (n {props}) RETURN n&quot;,&#10;    &quot;parameters&quot; : {&#10;      &quot;props&quot; : {&#10;        &quot;name&quot; : &quot;My Node&quot;&#10;      }&#10;    }&#10;  } ]&#10;}" />
+          <option name="textToSend" value="{&#10;  &quot;statements&quot; : [ {&#10;    &quot;query&quot; : &quot;CREATE elabel $1 &quot;,&#10;    &quot;params&quot;: [ &quot;parent&quot; ]&#10;  } ]&#10;}" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
@@ -458,7 +354,7 @@
             </list>
           </option>
           <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&#10;  &quot;statements&quot; : [ {&#10;    &quot;query&quot; : &quot;CREATE elabel $1 &quot;,&#10;    &quot;params&quot;: [ &quot;parent&quot; ]&#10;  } ]&#10;}" />
+          <option name="textToSend" value="{&#10;  &quot;statements&quot; : [ {&#10;    &quot;query&quot; : &quot;CREATE (n:person  {name: $1 }) RETURN id(n)&quot;,&#10;    &quot;params&quot; : [&quot;jack&quot;]&#10;  }, {&#10;    &quot;query&quot; : &quot;CREATE (n {props}) RETURN n&quot;,&#10;    &quot;parameters&quot; : {&#10;      &quot;props&quot; : {&#10;        &quot;name&quot; : &quot;My Node&quot;&#10;      }&#10;    }&#10;  } ]&#10;}" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
@@ -598,39 +494,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542332183911</updated>
-      <workItem from="1542332185272" duration="29573000" />
+      <workItem from="1542332185272" duration="32749000" />
+      <workItem from="1542591783219" duration="306000" />
     </task>
+    <task id="LOCAL-00001" summary="rename dbinfo.js -&gt; dbinfo.js.sample">
+      <created>1542587641708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542587641708</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29573000" />
+    <option name="totallyTimeSpent" value="33055000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="-19" y="23" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.41365463" side_tool="true" weight="0.24964234" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5863454" visible="true" weight="0.18383405" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5863454" visible="true" weight="0.16237482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.34699103" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Favorites" order="2" sideWeight="0.41365463" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46786633" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2880922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Cargo" />
-      <window_info anchor="right" id="Elm" />
-      <window_info anchor="right" id="PlantUML" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27016646" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Elm" order="3" />
+      <window_info anchor="right" id="Cargo" order="4" />
+      <window_info anchor="right" id="PlantUML" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,6 +543,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rename dbinfo.js -&gt; dbinfo.js.sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename dbinfo.js -&gt; dbinfo.js.sample" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/api_server/node_modules/pm2/bin/pm2-docker">
@@ -649,16 +558,8 @@
     <entry file="file://$PROJECT_DIR$/api_server/bin/www">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_server/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_server/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/api_server/routes/users.js" />
+    <entry file="file://$PROJECT_DIR$/api_server/routes/index.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -684,16 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="1118" column="31" selection-start-line="1118" selection-start-column="31" selection-end-line="1118" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/api_call_test.http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -704,9 +595,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1310">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.coffee.md">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/api_server/stream/Chunk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="285">
           <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -714,10 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_server/stream/EtlApiServer.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3425">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -728,55 +637,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_server/app.js">
+    <entry file="file://$PROJECT_DIR$/api_server/stream/EtlApiServer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="345">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.coffee.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/api_server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_server/log/agens_http.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_server/log/agens_http.error.log">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/api_call_test.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api_server/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api_server/dbinfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api_server/dbinfo.js.sample">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1310">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>

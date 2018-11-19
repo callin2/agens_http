@@ -15,6 +15,41 @@ Content-Type: application/json
   } ]
 }
 
+<> 2018-11-19T101744.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE elabel $1 ",
+    "params": [ "parent" ]
+  } ]
+}
+
+<> 2018-11-19T101736.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person  {name: $1 }) RETURN n ",
+    "params" : ["jack"]
+  }, {
+    "query" : "CREATE (n {props}) RETURN n",
+    "parameters" : {
+      "props" : {
+        "name" : "My Node"
+      }
+    }
+  } ]
+}
+
 <> 2018-11-17T124136.200.json
 
 ###

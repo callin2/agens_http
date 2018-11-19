@@ -1,9 +1,9 @@
 {
   "name": "api-server",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "npx pm2 start -o ./log/agens_http.log -e ./log/agens_http.error.log ./bin/www"
   },
   "dependencies": {
     "agensgraph": "git+https://github.com/bitnine-oss/agensgraph-nodejs.git",
@@ -11,7 +11,10 @@
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "http-errors": "^1.6.3",
-    "morgan": "~1.9.0",
+    "jade": "^1.11.0",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
     "pm2": "^3.2.2"
   }
 }
