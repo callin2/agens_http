@@ -1,0 +1,28 @@
+{
+  "name": "agens_http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "build": "npm install --prefix ./api_server; "
+  },
+  "dependencies": {
+    "coffeescript": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docco": "find . -name '*.coffee.md' | xargs docco -l linear "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callin2/agens_http.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/callin2/agens_http/issues"
+  },
+  "homepage": "https://github.com/callin2/agens_http#readme"
+}

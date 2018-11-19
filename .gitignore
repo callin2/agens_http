@@ -26,7 +26,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-### Node template
+### Node templategit commit -m "first commit"
 # Logs
 logs
 *.log
@@ -101,3 +101,4 @@ typings/
 # Serverless directories
 .serverless
 
+/api_server/dbinfo.js

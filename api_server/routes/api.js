@@ -4,13 +4,9 @@ var {qw} = require('./util')
 
 
 var ag = require('agensgraph');
-var config = {
-    user: 'agens',
-    password: 'qwer4321',
-    database: 'agens',
-    host: 'db',
-    port: 5432
-};
+var config = require("../dbinfo")
+
+console.log(config)
 
 router.post('/:database/:graphpath', function(req, res, next){
     let {statements} = req.body
