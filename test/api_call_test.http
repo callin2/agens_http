@@ -5,31 +5,76 @@
 # * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
 # * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
 
-POST http://localhost:3000/api/0.1/agens/gpath
+POST http://localhost:3000/api/0.1/agens
 Content-Type: application/json
 
 {
   "statements" : [ {
-    "query" : "CREATE elabel $1 ",
-    "params": [ "parent" ]
+    "query" : "CREATE graph  mygraph2  "
   } ]
 }
 ###
 
-POST http://localhost:3000/api/0.1/agens/gpath
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE vlabel  person  "
+  },{
+    "query" : "CREATE vlabel  animal  "
+  },{
+    "query" : "CREATE elabel  friends  "
+  },{
+    "query" : "CREATE elabel  parents  "
+  }]
+}
+###
+
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
 Content-Type: application/json
 
 {
   "statements" : [ {
     "query" : "CREATE (n:person  {name: $1 }) RETURN n ",
     "params" : ["jack"]
-  }, {
-    "query" : "CREATE (n {props}) RETURN n",
-    "parameters" : {
-      "props" : {
-        "name" : "My Node"
-      }
-    }
-  } ]
+  },{
+    "query" : "CREATE (n:person  {name: $1 }) RETURN n ",
+    "params" : ["ann"]
+  }]
+}
+###
+
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match (n:person {name:'jack'}) match (m:person {name:'ann'}) create (m)-[r:friends {since:2002}]->(n) return r;  "
+  }]
+}
+###
+
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match p = (m)-[r:friends {since:$1}]->(n) return p;  ",
+    "params" : [2002]
+  }]
+}
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match p = (m)-[r:friends {since:2002}]->(n) return p;  "
+  }]
 }
 ###

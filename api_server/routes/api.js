@@ -8,13 +8,14 @@ var config = require("../dbinfo")
 
 console.log(config)
 
-router.post('/:database/:graphpath', function(req, res, next){
+router.post('/:database/:graphpath?', function(req, res, next){
     let {statements} = req.body
     let {database, graphpath} = req.params
 
     var pool = new ag.Pool(Object.assign({},config,{database}))
 
     pool.on('connect',(client)=>{
+        if(!graphpath) return;
         client.query(`SET graph_path = ${graphpath} `).catch(err=>{
             res.json(error);
         })
