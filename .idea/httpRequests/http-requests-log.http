@@ -1,3 +1,247 @@
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match p = (m)-[r:friends {since:2002}]->(n) return p;  "
+  }]
+}
+
+<> 2018-11-19T121716.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match p = (m)-[r:friends {since:$1}]->(n) return p;  ",
+    "params" : [2002]
+  }]
+}
+
+<> 2018-11-19T121711.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match (n:person {name:'jack'}) match (m:person {name:'ann'}) create (m)-[r:friends {since:2002}]->(n) return r;  "
+  }]
+}
+
+<> 2018-11-19T121708.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person  {name: $1 }) RETURN n ",
+    "params" : ["jack"]
+  },{
+    "query" : "CREATE (n:person  {name: $1 }) RETURN n ",
+    "params" : ["ann"]
+  }]
+}
+
+<> 2018-11-19T121702.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE vlabel  person  "
+  },{
+    "query" : "CREATE vlabel  animal  "
+  },{
+    "query" : "CREATE elabel  friends  "
+  },{
+    "query" : "CREATE elabel  parents  "
+  }]
+}
+
+<> 2018-11-19T121657.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE graph  mygraph2  "
+  } ]
+}
+
+<> 2018-11-19T121654.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match (n:person {name:'jack'}) match (m:person {name:'ann'}) create (m)-[r:friends {since:2002}]->(n) return r;  "
+  }]
+}
+
+<> 2018-11-19T121643.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match p = (m)-[r:friends {since:$1}]->(n) return p;  ",
+    "params" : [2002]
+  }]
+}
+
+<> 2018-11-19T120305.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match p = (m)-[r:friends {since:2002}]->(n) return p;  "
+  }]
+}
+
+<> 2018-11-19T120247.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match (n:person {name:'jack'}) match (m:person {name:'ann'}) create (m)-[r:friends {since:2002}]->(n) return r;  "
+  }]
+}
+
+<> 2018-11-19T120222.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match p = (m)-[r:friends {since:2002}]->(n) return p;  "
+  }]
+}
+
+<> 2018-11-19T120209.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "match p = (m)-[r:friends {since:$1}]->(n) return p;  ",
+    "params" : [2002]
+  }]
+}
+
+<> 2018-11-19T120126.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE (n:person  {name: $1 }) RETURN n ",
+    "params" : ["jack"]
+  },{
+    "query" : "CREATE (n:person  {name: $1 }) RETURN n ",
+    "params" : ["ann"]
+  }]
+}
+
+<> 2018-11-19T115015.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/mygraph2
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE vlabel  person  "
+  },{
+    "query" : "CREATE vlabel  animal  "
+  },{
+    "query" : "CREATE elabel  friends  "
+  },{
+    "query" : "CREATE elabel  parents  "
+  }]
+}
+
+<> 2018-11-19T114643.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE graph  mygraph2  "
+  } ]
+}
+
+<> 2018-11-19T114412.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE graph  mygraph  "
+  } ]
+}
+
+<> 2018-11-19T114317.200.json
+
+###
+
+POST http://localhost:3000/api/0.1/agens/gpath
+Content-Type: application/json
+
+{
+  "statements" : [ {
+    "query" : "CREATE graph  mygraph  "
+  } ]
+}
+
+<> 2018-11-19T113838.200.json
+
+###
+
 POST http://localhost:3000/api/0.1/agens/gpath
 Content-Type: application/json
 
@@ -593,141 +837,6 @@ Content-Type: application/json
 }
 
 <> 2018-11-16T093651.500.html
-
-###
-
-POST http://localhost:3000/api/0.1/agens/gpath
-Content-Type: application/json
-
-{
-  "statements" : [ {
-    "query" : "CREATE vlabel person "
-  } ]
-}
-
-<> 2018-11-16T091919.500.html
-
-###
-
-POST http://localhost:3000/api/0.1/agens/gpath
-Content-Type: application/json
-
-{
-  "statements" : [ {
-    "query" : "CREATE vlabel person "
-  } ]
-}
-
-<> 2018-11-16T091803.500.html
-
-###
-
-POST http://localhost:3000/api/0.1/agens/gpath
-Content-Type: application/json
-
-{
-  "statements" : [ {
-    "query" : "CREATE vlabel person "
-  } ]
-}
-
-<> 2018-11-16T091654.500.html
-
-###
-
-POST http://localhost:3000/api/0.1/agens/gpath
-Content-Type: application/json
-
-{
-  "statements" : [ {
-    "statement" : "CREATE (n) RETURN id(n)"
-  }, {
-    "statement" : "CREATE (n {props}) RETURN n",
-    "parameters" : {
-      "props" : {
-        "name" : "My Node"
-      }
-    }
-  } ]
-}
-
-<> 2018-11-16T074454.200.json
-
-###
-
-POST http://localhost:3000/api/0.1/agens/gpath
-Content-Type: application/json
-
-{
-  "statements" : [ {
-    "statement" : "CREATE (n) RETURN id(n)"
-  }, {
-    "statement" : "CREATE (n {props}) RETURN n",
-    "parameters" : {
-      "props" : {
-        "name" : "My Node"
-      }
-    }
-  } ]
-}
-
-<> 2018-11-16T074448.200.json
-
-###
-
-POST http://localhost:3000/api/0.1/agens/gpath
-Content-Type: application/json
-
-{
-  "statements" : [ {
-    "statement" : "CREATE (n) RETURN id(n)"
-  }, {
-    "statement" : "CREATE (n {props}) RETURN n",
-    "parameters" : {
-      "props" : {
-        "name" : "My Node"
-      }
-    }
-  } ]
-}
-
-<> 2018-11-16T074008.200.json
-
-###
-
-POST http://localhost:3000/api/0.1/agens/gpath
-Content-Type: application/json
-
-{
-  "id": 999,
-  "value": "content"
-}
-
-<> 2018-11-16T070953.200.json
-
-###
-
-POST http://localhost:3000/api/0.1/agens/gpath
-Content-Type: application/json
-
-{
-  "id": 999,
-  "value": "content"
-}
-
-<> 2018-11-16T052152.200.json
-
-###
-
-POST http://localhost:3000/api/0.1/agens/gpath
-Content-Type: application/json
-
-{
-  "id": 999,
-  "value": "content"
-}
-
-<> 2018-11-16T051232.200.json
 
 ###
 

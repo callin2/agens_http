@@ -12,6 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "devstart": "",
     "test": "echo \"Error: no test specified\" && exit 1",
     "docco": "find . -name '*.coffee.md' | xargs docco -l linear "
   },
