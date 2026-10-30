@@ -28,6 +28,6 @@ you can find example request in the `test` directory
 
 
 ## For docker user
-if your system can use docker then there is no need to install agens graph.
+if you can use docker then there is no need to install agens graph.
 just type `docker-compose up` then you can get all you want!
 
